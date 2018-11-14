@@ -8,69 +8,69 @@
 /* Dialog Overlay */
 
 .dialog {
-	position:absolute;
-	z-index:2;
-	background-color:rgba(200,160,250,0.9);
-	left:0px;
-	top:0px;
-	width:0px;
-	height:0px;
-	transition:0.5s linear all;
-	border-bottom-right-radius:500%;
-	box-shadow:50px 50px 200px #0ff;
-	border-right:60px solid #0ff;
-	border-bottom:60px solid #0ff;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(200,160,250,0.9);
+	left: 0px;
+	top: 0px;
+	width: 0px;
+	height: 0px;
+	transition: 0.5s linear all;
+	border-bottom-right-radius: 500%;
+	box-shadow: 50px 50px 200px #0ff;
+	border-right: 60px solid #0ff;
+	border-bottom: 60px solid #0ff;
 }
 
 /* Dialog Overlay Opening Animation */
 
 .openDialog {
-	position:absolute;
-	z-index:2;
-	background-color:rgba(2,255,255,1);
-	left:0px;
-	top:0px;
-	width:99.9%;
-	height:99.9vh;
-	transation:0.4s linear all;
-	border-radius:0px;
-	box-shadow:0px 0px 100px #f0f;
-	border-right:1px solid #0ff;
-	border-bottom:1px solid #0ff;
+	position: absolute;
+	z-index: 2;
+	background-color: rgba(2,255,255,1);
+	left: 0px;
+	top: 0px;
+	width: 99.9%;
+	height: 99.9vh;
+	transation: 0.4s linear all;
+	border-radius: 0px;
+	box-shadow: 0px 0px 100px #f0f;
+	border-right: 1px solid #0ff;
+	border-bottom: 1px solid #0ff;
 	overflow: none;
 }
 
 /* Hamburger Menu and Close Icons */
 
 .icon {
-	box-shadow:0px 0px 4px #f0f;
-	width:30px;
-	height:30px;
-	float:right;
-	border-radius:25px;
-	margin:8px;
+	box-shadow: 0px 0px 4px #f0f;
+	width: 30px;
+	height: 30px;
+	float: right;
+	border-radius: 25px;
+	margin: 8px;
 }
 
 .items-open {
-	transition:0.4s linear all;
-	opacity:1;
+	transition: 0.4s linear all;
+	opacity: 1;
 }
 
 .ic-menu {
-	position:absolute;
-	z-index:3;
-	left:10px;
-	top:10px;
+	position: absolute;
+	z-index: 3;
+	left: 10px;
+	top: 10px;
 }
 
 li {
-	font-size:40px;
-	list-style-type:none;
-	text-align:center;
-	margin-bottom:10px;
+	font-size: 40px;
+	list-style-type: none;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 ul {
-	margin-top:20%;
-	margin-right:10%;
+	margin-top: 20%;
+	margin-right: 10%;
 }
